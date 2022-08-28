@@ -16,7 +16,7 @@ body {
 }
 
 .header {
-    font-size: 130%;
+    font-size: 150%;
     text-align: center;
 }
 
@@ -35,11 +35,11 @@ body {
 }
 
 .emoji-base {
-    font-size: 180%;
+    font-size: 200%;
 }
 
 .main-text {
-    font-size: 130%;
+    font-size: 150%;
     margin-left: 15px;
 }
 
