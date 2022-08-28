@@ -1,6 +1,10 @@
 /* html {
     height: 100%;
 } */
+@font-face {
+    font-family: "Kalam";
+    src: url("fonts/Kalam-Regular.ttf") format('truetype');
+}
 
 body {
     display: flex;
@@ -8,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #FFC4C4;
-    /* font-family: sans-serif; */
+    font-family: "Kalam";
 }
 
 .main-area {
