@@ -1,0 +1,61 @@
+/* html {
+    height: 100%;
+} */
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFC4C4;
+}
+
+.main-area {
+    position: relative;
+    /* background-color: #FFC4C4;
+    overflow: hidden;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: .2s; */
+}
+
+.header {
+    font-size: 150%;
+    text-align: center;
+}
+
+.step {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.step-space {
+    height: 50px;
+}
+
+.h-space {
+    width: 15px;
+    display: inline-block;
+}
+
+.emoji-wrap {
+    /* height: 25px; */
+    /* width: 25px; */
+    /* background-color: lightgray; */
+    border-radius: 50%;
+    display: inline-block;
+    /* border: 10px solid grey; */
+}
+
+.emoji-base {
+    font-size: 40px;
+}
+
+.main-text {
+    font-size: 150%;
+}
+
+.check-emoji {
+    font-size: 50px;
+    color: green;
+}
