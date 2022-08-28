@@ -7,12 +7,16 @@
 }
 
 body {
+    background-color: #FFC4C4;
+    font-family: "Kalam";
+}
+
+.page {
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: #FFC4C4;
-    font-family: "Kalam";
+    max-width: 100%;
 }
 
 .main-area {
@@ -26,6 +30,8 @@ body {
 
 .step {
     white-space: nowrap;
+    display: flex;
+    align-items: center;
 }
 
 .step-space {
@@ -38,6 +44,7 @@ body {
 }
 
 .emoji-base {
+    width: 80px;
     font-size: 200%;
 }
 
